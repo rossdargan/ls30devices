@@ -10,7 +10,7 @@ WORKDIR /var/LS30
 
 ENV PERLLIB $PERLLIB:/var/LS30/lib
 
-VOLUME /etc/devices.yaml
+VOLUME /var/LS30/devices/
 
 ENV LS30_DEVICES=/var/LS30/devices/devices.yaml
 
